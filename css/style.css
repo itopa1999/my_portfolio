@@ -639,3 +639,15 @@ footer {
         padding: 10px 20px;
     }
 }
+
+::placeholder {
+    color: white !important;
+    opacity: 1; /* Ensure full visibility */
+}
+
+/* For cross-browser compatibility */
+input::placeholder,
+textarea::placeholder {
+    color: white !important;
+    opacity: 1;
+}
